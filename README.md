@@ -1,17 +1,11 @@
-# temp_alert_app
+## Project Overview
 
-A new Flutter project.
+This project is a real-time monitoring system that collects data from two temperature sensors connected to an Arduino UNO R4 and sends it to a mobile application.
 
-## Getting Started
+The mobile app analyzes the incoming temperature data and immediately sends a notification to the user if the rate of temperature drop falls below a set threshold.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Key Features
+* Dual Temperature Sensor Integration: Real-time data collection from two sensors connected to the Arduino UNO R4.
+* Real-Time Data Transmission: Seamless live data sync between the Arduino setup and the mobile app.
+* Rapid Drop Detection: Detects abnormal conditions when the rate of temperature decrease exceeds the defined limit.
+* Alert Notifications: Sends instant mobile push notifications upon detecting a critical temperature drop.
